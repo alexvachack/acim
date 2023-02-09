@@ -1,0 +1,105 @@
+$fontFamily: 'HelveticaLTStd';
+@font-face{
+  font-family: $fontFamily;
+  src: local('HelveticaLTStd-Roman.otf'), url('~@/assets/fonts/HelveticaLTStd-Roman.otf') format('OpenType');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face{
+  font-family: $fontFamily;
+  src: local('HelveticaLTStd-Obl.otf'), url('~@/assets/fonts/HelveticaLTStd-Obl.otf') format('OpenType');
+  font-weight: normal;
+  font-style: italic;
+  font-display: auto;
+}
+@font-face{
+  font-family: $fontFamily;
+  src: local('helvetica-lt-std-light.otf'), url('~@/assets/fonts/helvetica-lt-std-light.otf') format('OpenType');
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face{
+  font-family: $fontFamily;
+  src: local('HelveticaLTStd-BoldObl.otf'), url('~@/assets/fonts/HelveticaLTStd-BoldObl.otf') format('OpenType');
+  font-weight: bold;
+  font-style: italic;
+  font-display: auto;
+}
+@font-face{
+  font-family: $fontFamily;
+  src: local('HelveticaLTStd-Bold.otf'), url('~@/assets/fonts/HelveticaLTStd-Bold.otf') format('OpenType');
+  font-weight: bold;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face{
+  font-family: $fontFamily;
+  src: local('HelveticaLTStd-Blk.otf'), url('~@/assets/fonts/HelveticaLTStd-Blk.otf') format('OpenType');
+  font-weight: 900;
+  font-style: normal;
+  font-display: auto;
+}
+
+body, body *{
+  font-family: $fontFamily,Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif;
+}
+
+$fontFamily2: 'LEMONMILK';
+@font-face{
+  font-family: $fontFamily2;
+  src: local('LEMONMILK-Regular.otf'), url('~@/assets/fonts/LEMONMILK-Regular.otf') format('OpenType');
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face{
+  font-family: $fontFamily2;
+  src: local('LEMONMILK-RegularItalic.otf'), url('~@/assets/fonts/LEMONMILK-RegularItalic.otf') format('OpenType');
+  font-weight: normal;
+  font-style: italic;
+  font-display: auto;
+}
+@font-face{
+  font-family: $fontFamily2;
+  src: local('LEMONMILK-Medium.otf'), url('~@/assets/fonts/LEMONMILK-Medium.otf') format('OpenType');
+  font-weight: 500;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face{
+  font-family: $fontFamily2;
+  src: local('LEMONMILK-MediumItalic.otf'), url('~@/assets/fonts/LEMONMILK-MediumItalic.otf') format('OpenType');
+  font-weight: 500;
+  font-style: italic;
+  font-display: auto;
+}
+@font-face{
+  font-family: $fontFamily2;
+  src: local('LEMONMILK-Light.otf'), url('~@/assets/fonts/LEMONMILK-Light.otf') format('OpenType');
+  font-weight: 300;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face{
+  font-family: $fontFamily2;
+  src: local('LEMONMILK-LightItalic.otf'), url('~@/assets/fonts/LEMONMILK-LightItalic.otf') format('OpenType');
+  font-weight: 300;
+  font-style: italic;
+  font-display: auto;
+}
+@font-face{
+  font-family: $fontFamily2;
+  src: local('LEMONMILK-Bold.otf'), url('~@/assets/fonts/LEMONMILK-Bold.otf') format('OpenType');
+  font-weight: bold;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face{
+  font-family: $fontFamily2;
+  src: local('LEMONMILK-BoldItalic.otf'), url('~@/assets/fonts/LEMONMILK-BoldItalic.otf') format('OpenType');
+  font-weight: bold;
+  font-style: italic;
+  font-display: auto;
+}
